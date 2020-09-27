@@ -3,8 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8dcffa-c62f-4b21-a122-3669a99889c7" name="Default Changelist" comment="" />
+    <list default="true" id="fb8dcffa-c62f-4b21-a122-3669a99889c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_AmazonKayitSayfasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Iframe_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Iframe_Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,31 +51,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1h4EBagWtFh7c1CS9Hthmhz7Y5O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.Iframe_Test.iframeTest4">
-    <configuration name="Iframe_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Iframe_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Ornek_AmazonKayitSayfasi">
     <configuration name="Iframe_Test.iframeTest3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
@@ -86,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSAlert_Test.jsAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ornek_AmazonKayitSayfasi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +106,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSAlert_Test" />
-      <option name="METHOD_NAME" value="jsAlertTest" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ornek_AmazonKayitSayfasi.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssert_Test.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowHandle_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -113,9 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.SoftAssert_Test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WindowHandle_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi" />
+        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi.test01" />
+        <item itemvalue="TestNG.WindowHandle_Test" />
         <item itemvalue="TestNG.Iframe_Test.iframeTest4" />
         <item itemvalue="TestNG.Iframe_Test.iframeTest3" />
-        <item itemvalue="TestNG.Iframe_Test" />
-        <item itemvalue="TestNG.JSAlert_Test.jsAlertTest" />
-        <item itemvalue="TestNG.SoftAssert_Test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -143,23 +170,39 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1054" height="2" key="GridCell.Tab.0.bottom" timestamp="1599689787032">
+    <state x="229" y="30" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601210722936">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.bottom/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1599689787032" />
-    <state width="1054" height="2" key="GridCell.Tab.0.center" timestamp="1599689787032">
+    <state x="229" y="30" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601210722936" />
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom" timestamp="1601224279458">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.center/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1599689787032" />
-    <state width="1054" height="2" key="GridCell.Tab.0.left" timestamp="1599689787031">
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601224279458" />
+    <state width="1054" height="2" key="GridCell.Tab.0.center" timestamp="1601224279457">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.left/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1599689787031" />
-    <state width="1054" height="2" key="GridCell.Tab.0.right" timestamp="1599689787032">
+    <state width="1054" height="2" key="GridCell.Tab.0.center/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601224279457" />
+    <state width="1054" height="2" key="GridCell.Tab.0.left" timestamp="1601224279457">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.right/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1599689787032" />
+    <state width="1054" height="2" key="GridCell.Tab.0.left/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601224279457" />
+    <state width="1054" height="2" key="GridCell.Tab.0.right" timestamp="1601224279457">
+      <screen x="0" y="0" width="1097" height="587" />
+    </state>
+    <state width="1054" height="2" key="GridCell.Tab.0.right/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601224279457" />
     <state x="140" y="0" key="new project wizard" timestamp="1599493172296">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
