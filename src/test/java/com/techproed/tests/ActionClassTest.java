@@ -58,6 +58,37 @@ public class ActionClassTest extends TestBase {
         actions.sendKeys(Keys.PAGE_UP).perform();
 
     }
+    @Test
+    public void buyukKucukYazma(){
+        driver.get("http://google.com");
+        WebElement aramaKutusu = driver.findElement(By.name("q"));
+        //standart yazma methodu
+        //==>aramaKutusu.sendKeys("Merhaba nasilsiniz?");
+        //yazinin tum karakterlerini buyuk yazmak icin
+        //==>aramaKutusu.sendKeys(Keys.SHIFT + "merhaba nasilsiniz")
+        //yazinin belli bolumunu buyuk belli bolumunu kucuk yazmak icin
+        //==>
+        Actions actions = new Actions(driver);
+        actions.moveToElement(aramaKutusu).click()
+                .keyDown(Keys.SHIFT)
+                .sendKeys("merhaba")
+                .keyUp(Keys.SHIFT)
+                .sendKeys(" nasilsiniz")
+                .perform();
+
+    }
+    @Test
+    public void dragAndDrop(){
+    //surukle ve birak
+    driver.get("http://google.com");
+    WebElement logo = driver.findElement(By.name("q"));
+    WebElement aramaKutusu = driver.findElement(By.id("hplogo"));
+
+    Actions actions = new Actions(driver);
+    //logo webelementini aramakutusu webelementinin ustune surukle ve birak
+    actions.dragAndDrop(logo, aramaKutusu).perform();
+    //google izin vermedigi icin testimiz sonuclanmadi ama normalde format bu sekilde
+    }
 
 
 }
