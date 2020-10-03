@@ -23,12 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb8dcffa-c62f-4b21-a122-3669a99889c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_CreateHotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.FileDownloadTest">
+  <component name="RunManager" selected="TestNG.Ornek_CreateHotel.hitelCreate">
     <configuration name="FileDownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
@@ -81,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloadTest.dosyaDownload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ornek_CreateHotel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +89,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
-      <option name="METHOD_NAME" value="dosyaDownload" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_CreateHotel" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ornek_CreateHotel.hitelCreate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_CreateHotel" />
+      <option name="METHOD_NAME" value="hitelCreate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloadTest.dosyaUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -108,26 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
-      <option name="METHOD_NAME" value="dosyaUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDownloadTest.dosyaVarMi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
-      <option name="METHOD_NAME" value="dosyaVarMi" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
+      <option name="METHOD_NAME" value="explicitWait" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Ornek_CreateHotel.hitelCreate" />
+        <item itemvalue="TestNG.Ornek_CreateHotel" />
+        <item itemvalue="TestNG.WaitTest.explicitWait" />
         <item itemvalue="TestNG.FileDownloadTest" />
         <item itemvalue="TestNG.WaitTest.implicitlyWait" />
-        <item itemvalue="TestNG.FileDownloadTest.dosyaDownload" />
-        <item itemvalue="TestNG.FileDownloadTest.dosyaUpload" />
-        <item itemvalue="TestNG.FileDownloadTest.dosyaVarMi" />
       </list>
     </recent_temporary>
   </component>
@@ -191,22 +189,22 @@
       <screen x="0" y="0" width="1097" height="587" />
     </state>
     <state x="229" y="30" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601210722936" />
-    <state width="1054" height="2" key="GridCell.Tab.0.bottom" timestamp="1601410282923">
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom" timestamp="1601728194945">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.bottom/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601410282923" />
-    <state width="1054" height="2" key="GridCell.Tab.0.center" timestamp="1601410282923">
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601728194945" />
+    <state width="1054" height="2" key="GridCell.Tab.0.center" timestamp="1601728194944">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.center/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601410282923" />
-    <state width="1054" height="2" key="GridCell.Tab.0.left" timestamp="1601410282922">
+    <state width="1054" height="2" key="GridCell.Tab.0.center/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601728194944" />
+    <state width="1054" height="2" key="GridCell.Tab.0.left" timestamp="1601728194944">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.left/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601410282922" />
-    <state width="1054" height="2" key="GridCell.Tab.0.right" timestamp="1601410282923">
+    <state width="1054" height="2" key="GridCell.Tab.0.left/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601728194944" />
+    <state width="1054" height="2" key="GridCell.Tab.0.right" timestamp="1601728194945">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
-    <state width="1054" height="2" key="GridCell.Tab.0.right/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601410282923" />
+    <state width="1054" height="2" key="GridCell.Tab.0.right/0.0.1097.587/1920.0.1920.1050@0.0.1097.587" timestamp="1601728194945" />
     <state x="140" y="0" key="new project wizard" timestamp="1599493172296">
       <screen x="0" y="0" width="1097" height="587" />
     </state>
